@@ -1,6 +1,5 @@
 FROM smcleod/x:latest
 
-USER root
 RUN apt-get install -y \
     google-chrome-stable && \
     apt-get clean
